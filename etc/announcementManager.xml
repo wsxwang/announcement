@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<announcementManager>
+  <autoClear desc="自动清理配置">
+    <disk desc="磁盘配额，最大可使用当前分区的百分比，默认80">80</disk>
+    <time type="xml" day="365" desc="按时长清理，type表示清理的公告类型，取值为：xml-公告描述文件、rtf-公告正文、att-公告附件、day表示保留时长，以天为单位"/>
+    <time type="rtf" day="365" />
+    <time type="att" day="30" />
+  </autoClear>
+  <localCfg>
+    <ftp localRootPath="" desc="本机ftp服务器的根目录" />
+    <log path="" level="debug" desc="日志配置" />
+  </localCfg>
+</announcementManager>

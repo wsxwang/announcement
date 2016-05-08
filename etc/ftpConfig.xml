@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ftpConfig>
+  <node id="54321" host="localhost" usr="announcement" pwd="cGFzc29r" desc="某节点的ftp配置，id、host必填，其他选填" />
+  <node id="54322" host="127.0.0.1" />
+  <node id="100000" host="192.168.124.1" />
+  <node id="123000" host="127.0.0.1" />
+  <node id="123001" host="127.0.0.1" />
+  <node id="123002" host="127.0.0.1" />
+</ftpConfig>
